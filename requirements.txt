@@ -7,4 +7,3 @@ matplotlib
 skyfield
 timezonefinder
 pandas
-  
