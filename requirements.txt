@@ -1,9 +1,9 @@
-re
-geopy 
-tzwhere
-pytz 
-numpy 
-matplotlib
-skyfield
-timezonefinder
+re \
+geopy \
+tzwhere \
+pytz \
+numpy \
+matplotlib \
+skyfield \
+timezonefinder \
 pandas
