@@ -7,5 +7,10 @@ setup(
     name='skymap',
     version='1.0.0',
     packages=find_packages(),
-    install_requires=requirements,  # Použití seznamu z requirements.txt
+    install_requires=requirements, 
+    entry_points={
+        'console_scripts': [
+            'starmap = main.py:main',
+        ],
+    },
 )
