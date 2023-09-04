@@ -1,0 +1,10 @@
+pip install re
+pip install geopy 
+pip install tzwhere
+pip install pytz 
+pip install numpy 
+pip install matplotlib
+pip install skyfield
+pip install timezonefinder
+pip install pandas
+  
