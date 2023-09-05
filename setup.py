@@ -1,16 +1,17 @@
-from setuptools import setup, find_packages
-
-with open('https://raw.githubusercontent.com/safarma1/Programko2/semestral/requirements.txt') as f:
-    requirements = f.read().splitlines()
+from setuptools import setup
 
 setup(
-    name='skymap',
+    name='semestral',
     version='1.0.0',
-    packages=find_packages(),
-    install_requires=requirements, 
-    entry_points={
-        'console_scripts': [
-            'starmap = main.py:main',
-        ],
-    },
+    scripts='main.py',
+    install_requires=[
+    'geopy',
+    'tzwhere',
+    'pytz',
+    'numpy',
+    'matplotlib',
+    'skyfield',
+    'timezonefinder',
+    'pandas',
+],
 )
