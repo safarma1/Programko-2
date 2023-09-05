@@ -6,7 +6,14 @@ V souboru jsou uloženy polohy hvězd na nebeské sféře (v rovníkových souř
 
 **Popis pro uživatele**
 
-Program má za cíl vytvořit a zobrazit na výstup hvězdnou mapu na základě vstupních dat od uživatele. Program je psaný v jazyce Python, před jeho spuštěním je tedy potřeba mít nainstalovaný Python 3 a některé jeho knihovny, které program využívá pro svou práci. Instalaci těchto knihoven je možné provést zadáním příkazů, které lze nalézt v souboru requirements.txt
+Program má za cíl vytvořit a zobrazit na výstup hvězdnou mapu na základě vstupních dat od uživatele. Program je psaný v jazyce Python, před jeho spuštěním je tedy potřeba mít nainstalovaný Python 3 a některé jeho knihovny, které program využívá pro svou práci. Instalaci projektu můžete zařídit příkazem: 
+
+pip install git+https://github.com/safarma1/Programko-2.git@semestral
+
+Poté by měl jít program spustit příkazem: 
+
+python3.10 -m semestral.main
+
   
 Při spuštění souboru si program vyžádá postupně celkem tři textové vstupy, přičemž každý z nich je potřeba ukončit klávesou Enter. Nejprve je potřeba zadat místo, odkud si přeje uživatel oblohu zobrazit, ať už jako město, ulici či GPS souřadnice. Pokud je vstup platný, tedy program dokáže identifikovat požadované místo, přistoupí k dalšímu dotazu, v opačném případě načítá tento vstup tak dlouho, dokud není validní. 
 Dále je potřeba zadat datum, a to ve formátu „yyyy-mm-dd“ (jak je uvedeno i při samotné výzvě v programu), tedy nejprve čtyři číslice označující rok, poté pomlčka, poté dvě číslice označující měsíc, poté opět pomlčka, a nakonec dvě číslice označující den. Mezi jednotlivými daty nemá být žádná mezera, ani jiný bílý znak. Opět platí, že pokud je vstup takto vyhodnocen jako validní, zobrazí se poslední dotaz, v opačném případě, probíhá tento dotaz tak dlouho, dokud není zadán ve správném formátu. 
